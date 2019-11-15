@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon.jpg" type="image/x-icon">
+    <title>Agua Mineral Natural</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:900" rel="stylesheet">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".hamburguesa").click(function() {
+                $("nav").css("display", "block");
+                $(".hamburguesa").css("display", "none");
+                $(".equis").css("display", "block");
+            });
+
+            $(".equis").click(function() {
+                $("nav").css("display", "none");
+                $(".hamburguesa").css("display", "block");
+                $(".equis").css("display", "none");
+
+
+            });
+
+            $(".cont-protegida").hide();
+            $(".cont-protegida").fadeIn(1500, function() {
+                $(".o1").css("animation", "origen 2.5s 1");
+                $(".o1").css("left", "120px");
+            });
+        });
+
+    </script>
+</head>
+
+<body class="cuerpo-origen">
+    <nav>
+        <div class="cont-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="aguamineral.html">Agua Mineral</a></li>
+                <li><a href="origen.html">Origen</a></li>
+                <li><a href="salud.html">Salud</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <img width="300" height="1" src="img/linea.jpg" alt="">
+            <ul>
+                  <li><a class="pp" href="politica-privacidad.html">política de privacidad</a></li>
+                <li><a class="pp" href="politica-cookies.html">política de cookies</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="logo">
+        <a href="index.html"><img src="img/nature-logo.png" alt=""></a>
+    </div>
+    <div class="menu">
+        <img class="hamburguesa" src="img/hamburguesa.png" alt="">
+        <img class="equis" src="img/equis.png" alt="">
+    </div>
+    <main>
+        <div class="cont-bot-origen">
+            <div class="img-bot-origen">
+                <img class="o2" src="img/Nature-o2.jpg" alt="">
+                <img width="152" height="566" class="o1" src="img/Nature-o1.png" alt="">
+            </div>
+        </div>
+        <div class="cont-protegida">
+            <div class="protegida">
+                <img class="protegida-img" src="img/protegida.jpg" alt="">
+                <p class="lato">
+                    El agua Nature es el resultado de años de filtraciones en un entorno natural, libre de nitratos, un compuesto habitual en los suelos agrícolas y urbanos, pero totalmente ausente en el gua Nature. El viaje que hace el agua hasta el acuífero de la comarca de El Bierzo, convierten a Nature en una de las aguas minerales más sanas del mercado.
+                </p>
+                <a class="scroll" href="#proceso">
+                    <div class="flecha"><img src="img/flecha.png" alt=""></div>
+                </a>
+
+            </div>
+        </div>
+        <div class="proceso" id="proceso">
+            <div class="fila-proc">
+                <img src="img/rain.jpg" alt="">
+                <p class="lato">
+                    Con una media de 1500 mm anuales en forma de lluvia y nieve, los Montes de León presentan unas condiciones óptimas para la formación de arroyos y ríos, así como la acumulación de nieve que dará pie al crecimiento fluvial en los meses de primavera.
+                </p>
+                <div class="clear"></div>
+            </div>
+            <div class="fila-proc">
+                <img src="img/mountain.jpg" alt="">
+                <p class="lato">
+                    El agua discurre por los paisajes cantábricos acumulando todos los minerales que la hacen única. Desde las altas cumbres pasando por praderas y bosques hasta filtrarse bajo el suelo, por donde cuntinuará su camino en un espacio protegido, lejos de la injerencia del ser humano.
+                </p>
+                <div class="clear"></div>
+            </div>
+            <div class="fila-proc">
+                <img src="img/acuifero.jpg" alt="">
+                <p class="lato">
+                    Tras un largo recorrido, el agua queda almacenada en una zona totalmente aislada, sin contaminación, una reserva natural a 110 m de profundidad cerca de la localidad leonesa de Folgoso de la Ribera. Más de 12 años de filtraciones dan lugar a un agua 100% pura y rica en minerales medicinales.
+                </p>
+                <div class="clear"></div>
+            </div>
+            <div class="fila-proc">
+                <img src="img/bot-end.jpg" alt="">
+                <p class="lato">
+                    El agua se embotella en el mismo lugar de su extracción, por lo que conserva sus propiedades sin sufrir alteraciones de ningún tipo. Libre de nitratos, sin aditivos y con todas sus propiedades mineromedicinales.
+                </p>
+                <div class="clear"></div>
+            </div>
+            <div class="footer" style="margin-top: 80px;">
+                <div class="linea">
+                    <img class="responsive" src="img/linea.jpg" alt="">
+                </div>
+                <div class="redes">
+                       <a href="https://www.facebook.com/Nature-Montes-de-Le%C3%B3n-2057337641201135/"><img width="22" height="22" class="right" src="img/facebook-letter-logo.png" alt=""></a>
+                    <a href="https://www.linkedin.com/showcase/nature-agua-mineral-natural-/?originalSubdomain=es"><img width="22" height="22" class="left" src="img/linkedin.png" alt=""></a>
+                    </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        $('a.scroll').click(function(e) {
+            e.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: $($(this).attr('href')).offset().top
+            }, 1000);
+        });
+
+    </script>
+
+</body>
+
+</html>

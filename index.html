@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+<link rel="icon" href="img/favicon.jpg" type="image/x-icon">
+    <title>Nature Montes de León</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".hamburguesa").click(function() {
+                $("nav").css("display", "block");
+                $(".hamburguesa").css("display", "none");
+                $(".equis").css("display", "block");
+            });
+
+            $(".equis").click(function() {
+                $("nav").css("display", "none");
+                $(".hamburguesa").css("display", "block");
+                $(".equis").css("display", "none");
+            });
+            
+            $(".franja h2").hide();
+            $(".franja h2").slideDown(1500);
+            
+            $(".franja h1").hide();
+            $(".franja h1").slideDown(1500);
+            
+            $(".botella").hide();
+            $(".botella").fadeIn(2000);
+            
+            
+            
+        });
+
+    </script>
+</head>
+
+<body class="fondo-index">
+    <nav class="sombra">
+        <div class="cont-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="aguamineral.html">Agua Mineral</a></li>
+                <li><a href="origen.html">Origen</a></li>
+                <li><a href="salud.html">Salud</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <img width="300" height="1" src="img/linea.jpg" alt="">
+            <ul>
+                   <li><a class="pp" href="politica-privacidad.html">política de privacidad</a></li>
+                <li><a class="pp" href="politica-cookies.html">política de cookies</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="logo">
+        <a href="index.html"><img src="img/nature-logo.png" alt=""></a>
+    </div>
+    <div class="menu">
+        <img class="hamburguesa" src="img/hamburguesa.png" alt="">
+        <img class="equis" src="img/equis.png" alt="">
+    </div>
+    <main>
+        <div class="video">
+            <video autoplay muted loop>
+              <source src="img/mi-pelicula.mp4" type="video/mp4">
+               <source src="img/mi-pelicula.webm" type="video/webm">
+                <source src="img/mi-pelicula.ogv" type="video/ogg">
+           </video>
+        </div>
+
+        <div class="botella">
+          
+                <img class="responsive2" src="img/Nature3.png" alt="">
+           
+        </div>
+        <div class="franja">
+            <h2 class="black">100%<br><span style="font-size: 72px;">natural</span></h2>
+            <h1 class="black">¿Aún piensas que<br>todo el agua mineral<br>es igual?</h1>
+        </div>
+        <div class="titulo-mov">
+            <img class="responsive" src="img/100mov.png" alt="">
+        </div>
+
+   <div class="redes-index">
+       <a href="https://www.linkedin.com/showcase/nature-agua-mineral-natural-/?originalSubdomain=es"><img style="margin-right: 5px;" width="35" height="35" src="img/linkedin-logo.png" alt=""></a>
+       <a href="https://www.facebook.com/Nature-Montes-de-Le%C3%B3n-2057337641201135/"><img width="35" height="35" src="img/facebook-logo.png" alt=""></a>
+   </div>
+    </main>
+
+</body>
+
+</html>

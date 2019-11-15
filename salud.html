@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+<link rel="icon" href="img/favicon.jpg" type="image/x-icon">
+    <title>Salud</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:900" rel="stylesheet">
+     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".hamburguesa").click(function() {
+                $("nav").css("display", "block");
+                $(".hamburguesa").css("display", "none");
+                $(".equis").css("display", "block");
+            });
+
+            $(".equis").click(function() {
+                $("nav").css("display", "none");
+                $(".hamburguesa").css("display", "block");
+                $(".equis").css("display", "none");
+            });
+            
+          
+             $(function() {
+                    
+                $(".rectang1").css("animation", "rectang 2s 1s 1 backwards");
+                 
+               $(".rectang2").css("animation", "rectang 2s 2s 1 backwards");
+                
+            });
+            $(".rectang1").css("width", "0px");
+            $(".rectang2").css("width", "0px");
+        });
+
+    </script>
+</head>
+
+<body class="cuerpo-salud">
+    <nav class="sombra">
+         <div class="cont-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="aguamineral.html">Agua Mineral</a></li>
+                <li><a href="origen.html">Origen</a></li>
+                <li><a href="salud.html">Salud</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <img width="300" height="1" src="img/linea.jpg" alt="">
+            <ul>
+                <li><a class="pp" href="politica-privacidad.html">política de privacidad</a></li>
+                <li><a class="pp" href="politica-cookies.html">política de cookies</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="logo">
+        <a href="index.html"><img src="img/nature-logo.png" alt=""></a>
+    </div>
+    <div class="menu">
+       <img class="hamburguesa" src="img/hamburguesa.png" alt="">
+        <img class="equis" src="img/equis.png" alt="">
+    </div>
+    <main>
+        <div class="cont-salud">
+            <div class="salud">
+                <div class="embotellamos">
+                   <div class="rectang1"></div>
+                   <div class="rectang2"></div>
+                   <img class="responsive" src="img/embotellamos.jpg" alt="">
+                </div>
+
+                <p class="lato texto-salud">
+                    El agua es el líquido vital para que tu cuerpo funcione correctamente y, en concreto, el agua mineral es la que te aporta más beneficios para tu salud. Debido a su composición mineromedicinal, beber Nature a diario te ayudará a mantenerte en tu peso ideal, tener huesos fuertes y músculos tonificados, así como una piel joven, correctos niveles de azúcar en sangre y de presión arterial.
+                </p>
+                <a class="scroll" href="#mineralizacion">
+                    <div class="flecha"><img src="img/flecha.gif" alt=""></div>
+                </a>
+            </div>
+        </div>
+        <div class="cont-mineralizacion" id="mineralizacion">
+            <div class="mineralizacion">
+                <img class="responsive" src="img/mineralizacion.jpg" alt="">
+            </div>
+            <div class="minerales">
+                <div class="fila-mineral">
+                    <div class="img-mineral"><img src="img/residuoseco.jpg" alt=""></div>
+                    <p class="lato">
+                        El residuo seco indica la cantidad de minerales presentes en el agua. Nature es un agua de mineralización débil, rica en bicarbonatos, calcio y magnesio, minerales fundamentales en muchos procesos metabólicos.
+                    </p>
+                    <div class="clear"></div>
+                </div>
+                <div class="fila-mineral">
+                    <div class="img-mineral"><img src="img/bicarbonatos.jpg" alt=""></div>
+                    <p class="lato">
+                        Poseen numerosas propiedades beneficiosas para el organismo entre las que destacan la reducción de la acidez estomacal, el ácido úrico, mejora el rendimiento deportivo y previene los cálculos renales.
+                    </p>
+                    <div class="clear"></div>
+                </div>
+                <div class="fila-mineral">
+                    <div class="img-mineral"><img src="img/sulfatos.jpg" alt=""></div>
+                    <p class="lato">
+                        Aliados para tu sistema digestivo. Se ha demostrado clínicamente que mejoran la digestión, evitan la diarrea, la inflamación del tracto digestivo y el estreñimiento.
+                    </p>
+                    <div class="clear"></div>
+                </div>
+                <div class="fila-mineral">
+                    <div class="img-mineral"><img src="img/cloruros.jpg" alt=""></div>
+                    <p class="lato">
+                        Son fundamentales para mantener un correcto equilibrio de los fluidos del cuerpo y son una parte esencial de los jugos gástricos.
+                    </p>
+                    <div class="clear"></div>
+                </div>
+                <div class="fila-mineral">
+                    <div class="img-mineral"><img src="img/calcio.jpg" alt=""></div>
+                    <p class="lato">
+                        Es importantísimo para mantener unos huesos y dientes fuertes. Previene la osteoporosis, ayuda a la coagulación de la sangre, la secreción de hormonas y a tener un ritmo cardíaco normal.
+                    </p>
+                    <div class="clear"></div>
+                </div>
+                <div class="fila-mineral">
+                    <div class="img-mineral"><img src="img/magnesio.jpg" alt=""></div>
+                    <p class="lato">
+                        Es fundamental para el correcto funcionamiento muscular. Ayuda a la correcta contracción y relajación de los músculos y a su recuperación tras el ejercicio físico.
+                    </p>
+                    <div class="clear"></div>
+                </div>
+                <div class="fila-mineral">
+                    <div class="img-mineral"><img src="img/sodio.jpg" alt=""></div>
+                    <p class="lato">
+                        Controla la presión arterial, el volúmen sanguíneo, el tono muscular y ayuda al funcionamiento del sistema nervioso.
+                    </p>
+                    <div class="clear"></div>
+                </div>
+                <div class="fila-mineral">
+                    <div class="img-mineral"><img src="img/silice.jpg" alt=""></div>
+                    <p class="lato">
+                        Favorece la piel ya que fortalece las células que están entre la elastina y las fibras de colágeno, algo que previene el envejecimiento de la piel y la aparición de arrugas.
+                    </p>
+                    <div class="clear"></div>
+                </div>
+                <div class="corazon">
+                    <img src="img/corazon.jpg" alt="">
+                </div>
+                
+                 <div class="footer">
+                <div class="linea">
+                    <img class="responsive" src="img/linea.jpg" alt="">
+                </div>
+                <div class="redes">
+                    <a href="https://www.facebook.com/Nature-Montes-de-Le%C3%B3n-2057337641201135/"><img width="22" height="22" class="right" src="img/facebook-letter-logo.png" alt=""></a>
+                    <a href="https://www.linkedin.com/showcase/nature-agua-mineral-natural-/?originalSubdomain=es"><img width="22" height="22" class="left" src="img/linkedin.png" alt=""></a>
+                </div>
+            </div>
+            </div>
+           
+        </div>
+
+    </main>
+
+
+    <script>
+        $('a.scroll').click(function(e) {
+            e.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: $($(this).attr('href')).offset().top
+            }, 1000);
+        });
+
+    </script>
+
+</body>
+
+</html>

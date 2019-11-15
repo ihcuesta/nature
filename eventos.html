@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+<link rel="icon" href="img/favicon.jpg" type="image/x-icon">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:900" rel="stylesheet">
+     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".hamburguesa").click(function() {
+                $("nav").css("display", "block");
+                $(".hamburguesa").css("display", "none");
+                $(".equis").css("display", "block");
+            });
+
+            $(".equis").click(function() {
+                $("nav").css("display", "none");
+                $(".hamburguesa").css("display", "block");
+                $(".equis").css("display", "none");
+            });
+            
+            $(".contacto").hide();
+        $(".contacto").fadeIn(1500);
+        });
+        
+        
+            
+
+    </script>
+</head>
+
+<body class="cuerpo-eventos">
+    <nav>
+        <div class="cont-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="aguamineral.html">Agua Mineral</a></li>
+                <li><a href="origen.html">Origen</a></li>
+                <li><a href="salud.html">Salud</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <img width="300" height="1" src="img/linea.jpg" alt="">
+            <ul>
+                 <li><a class="pp" href="politica-privacidad.html">política de privacidad</a></li>
+                <li><a class="pp" href="politica-cookies.html">política de cookies</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="logo">
+        <a href="index.html"><img src="img/nature-logo.png" alt=""></a>
+    </div>
+    <div class="menu">
+         <img class="hamburguesa" src="img/hamburguesa.png" alt="">
+        <img class="equis" src="img/equis.png" alt="">
+    </div>
+    <main>
+        <div class="cont-eventos">
+            <div class="contacto">
+                <div class="informacion">
+                    <img class="responsive" src="img/eventos.jpg" alt="">
+                </div>
+                <p class="lato">
+                    Hacer deporte con frecuencia e hidratarse tras la actividad física es, sin duda, un hábito saludable que fortalece tu sistema inmunológico y retrasa el envejecimiento. <br><br> En Nature estamos comprometidos con tu bienestar, por eso patrocinamos eventos deportivos e iniciativas de wellness con el objetivo de concienciar sobre la importancia de tener unos hábitos saludables.<br><br>
+
+                    
+                </p>
+                
+                <p class="lato" style="text-align: center; font-size: 14px; margin-bottom: 50px;">
+                     Nature, patrocinador oficial de:
+                </p>
+               <div class="patrocinios">
+                 
+                   <a target="_blank" href="http://www.cbbembibre.com/"><div class="img-pat mar-pat"><img  class="responsive" src="img/bembibre-logobn.jpg" alt=""></div></a>
+                   <a target="_blank" href="http://piromusicalsueca.com/"><div class="img-pat mar-pat"><img  class="responsive" src="img/piromusical-logobn.jpg" alt=""></div></a>
+                  <a target="_blank" href="https://www.eszenit.es/"><div class="img-pat"> <img  class="responsive" src="img/eszenit-logobn.jpg" alt=""></div></a>
+               </div>
+             
+                 <div class="cont-buscas"> <a class="buscas-patrocinador lato" href="contacto.html">¿Buscas patrocinador?</a></div> 
+               
+                <div class="footer">
+                    <div class="linea">
+                        <img class="responsive" src="img/linea.jpg" alt="">
+                    </div>
+                   <div class="redes">
+                       <a href="https://www.facebook.com/Nature-Montes-de-Le%C3%B3n-2057337641201135/"><img width="22" height="22" class="right" src="img/facebook-letter-logo.png" alt=""></a>
+                    <a href="https://www.linkedin.com/showcase/nature-agua-mineral-natural-/?originalSubdomain=es"><img width="22" height="22" class="left" src="img/linkedin.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+</body>
+
+</html>

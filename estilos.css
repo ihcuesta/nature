@@ -1,0 +1,1586 @@
+@keyframes aguamineral {
+    from {
+        right: 900px;
+        opacity: 0;
+    }
+    to {
+        right: 680px;
+        opacity: 1;
+    }
+}
+
+@keyframes origen {
+    from {
+        left: 7px;
+    }
+    to {
+        left: 120px;
+    }
+}
+
+@keyframes rectang {
+    from {
+        width: 468px;
+    }
+    to {
+        width: 0px;
+    }
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+/*CLASES GENÉRICAS*/
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+    color: #616161;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+
+.black {
+    font-weight: 900;
+}
+
+
+/*MENÚ HAMBURGUESA*/
+
+nav {
+    display: none;
+
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #2bb4ad;
+    width: 100%;
+    float: none;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+
+}
+
+.sombra {
+    text-shadow: none;
+}
+
+.cont-nav {
+    position: absolute;
+    top: 50%;
+    height: 320px;
+    width: 300px;
+    margin-left: -150px;
+    left: 50%;
+    margin-top: -160px;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+.pp {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+.menu {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 1000;
+    display: block;
+    cursor: pointer;
+
+}
+
+.equis {
+    display: none;
+}
+
+.hamburguesa {
+    display: block;
+
+}
+
+
+/*
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #2bb4ad;
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.sombra {
+    text-shadow: 1px 1px 1px #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 600px;
+    position: fixed;
+    top: 25px;
+    left: 50px;
+    z-index: 1000;
+}
+*/
+
+.responsive {
+    height: auto;
+    width: 100%;
+}
+
+.responsive2 {
+    height: 100%;
+    width: auto;
+}
+
+
+/*CABECERA*/
+
+.logo {
+    width: 45px;
+    height: 57px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    z-index: 1000;
+}
+
+/*
+.menu {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 1000;
+    display: none;
+}
+*/
+
+/*INDEX*/
+
+.video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+.video video {
+    min-height: 100%;
+    min-width: 100%;
+
+}
+
+
+.franja {
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    margin-top: -150px;
+    height: 300px;
+    background-color: rgba(70, 169, 162, 0.7);
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.franja h2 {
+    color: #FFF;
+    font-size: 103px;
+    line-height: 80px;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -430px;
+
+}
+
+.franja h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 36px;
+    position: absolute;
+    right: 50%;
+    margin-right: -550px;
+    top: 60px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+.botella {
+    width: 170px;
+    height: 608px;
+    position: fixed;
+    top: 50%;
+    margin-top: -340px;
+    left: 50%;
+    margin-left: -85px;
+    z-index: 70;
+}
+
+
+.titulo-mov {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    padding: 0px 5%;
+    box-sizing: border-box;
+
+}
+
+.redes-index {
+    position: fixed;
+    left: 25px;
+    bottom: 25px;
+    z-index: 900;
+    width: 80px;
+}
+
+
+/*AGUA MINERAL*/
+
+.cuerpo {
+    background-image: url(img/agua-mineral.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+}
+
+.contenedor1 {
+    position: absolute;
+    width: 750px;
+    background-color: #fff;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cont-int {
+    width: 306px;
+
+}
+
+.cont-proc-nat {
+    width: 306px;
+    margin: auto;
+}
+
+.img-aguamineral {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cont-mineral {
+    width: 350px;
+    margin: auto;
+}
+
+.flecha-agua {
+    width: 34px;
+    margin: 30px auto 0px auto;
+}
+
+
+.botella-am {
+    position: fixed;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 144px;
+    right: 900px;
+    opacity: 0;
+    z-index: 800;
+
+}
+
+.contenedor2 {
+    position: absolute;
+    width: 750px;
+    background-color: #fff;
+    padding: 150px 0px 50px 0px;
+    right: 0px;
+    top: 100%;
+    text-align: center;
+
+
+}
+
+.montesleon {
+    width: 427px;
+    margin: auto;
+}
+
+.texto {
+    width: 400px;
+    margin: 50px auto 40px auto;
+    text-align: left;
+
+}
+
+.tamanos {
+    width: 360px;
+    margin: auto;
+}
+
+.tamanos-mov {
+    width: 360px;
+    margin: auto;
+    display: none;
+}
+
+.formato {
+    float: left;
+    width: 120px;
+    cursor: pointer;
+}
+
+.formato img {
+    vertical-align: bottom;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.cont-proc-nat img {}
+
+.info {
+    background-color: #2bb4ad;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    width: 250px;
+
+}
+
+.link {
+    width: 250px;
+    margin: 50px auto 100px auto;
+    text-align: center;
+}
+
+.linea {
+    margin: auto;
+    text-align: center;
+}
+
+.redes {
+    width: 70px;
+    margin: 20px auto 50px auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.pequena {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: none;
+}
+
+.pequenaimg {
+    width: 950px;
+}
+
+.mediana {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: none;
+}
+
+.medianaimg {
+    width: 950px;
+}
+
+.grande {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: none;
+}
+
+.grandeimg {
+    width: 950px;
+}
+
+.pequenamov {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: none;
+}
+
+.formatimgmov {
+    width: 85%;
+}
+
+.medianamov {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: none;
+}
+
+
+
+.grandemov {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: none;
+}
+
+
+
+
+/*ORIGEN*/
+
+.cuerpo-origen {
+    background-image: url(img/fondo-origen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cont-bot-origen {
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-bot-origen {
+    position: relative;
+    width: 283px;
+    height: 564px;
+}
+
+.o2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+.o1 {
+    position: absolute;
+    z-index: 200;
+    top: -2px;
+    left: 7px;
+}
+
+
+
+.cont-protegida {
+
+    width: 45%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.protegida {
+    background-color: #fff;
+    width: 400px;
+    padding: 70px 50px;
+}
+
+.proceso {
+    width: 45%;
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    padding-top: 75px;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.fila-proc {
+    width: 450px;
+    margin: auto;
+}
+
+.fila-proc img {
+    float: left;
+
+}
+
+.fila-proc p {
+    float: right;
+    width: 300px;
+}
+
+.flecha {
+    margin: auto;
+    width: 34px;
+}
+
+
+/*SALUD*/
+
+.cuerpo-salud {
+    background-image: url(img/fondo-salud.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cont-salud {
+
+    width: 750px;
+    background-color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.embotellamos {
+    width: 468px;
+    height: 193px;
+    margin: auto;
+    position: relative;
+}
+
+.rectang1 {
+    position: absolute;
+    background-color: #fff;
+    right: 0px;
+    top: 0px;
+    z-index: 900;
+    width: 468px;
+    height: 50px;
+}
+
+.rectang2 {
+    position: absolute;
+    background-color: #fff;
+    right: 0px;
+    top: 50px;
+    z-index: 900;
+    width: 468px;
+    height: 200px;
+}
+
+.salud {
+
+    width: 500px;
+    margin: auto;
+}
+
+.texto-salud {
+    margin: 50px auto 20px auto;
+    width: 400px;
+
+}
+
+.cont-mineralizacion {
+    position: absolute;
+    top: 100%;
+    right: 15px;
+    width: 750px;
+    background-color: #fff;
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+}
+
+.mineralizacion {
+    width: 382px;
+    margin: auto;
+}
+
+
+
+.fila-mineral {
+    width: 550px;
+    margin: 70px auto 0px auto;
+
+}
+
+.img-mineral {
+    float: left;
+    margin-top: 10px;
+}
+
+.fila-mineral p {
+    float: right;
+    width: 300px;
+}
+
+.corazon {
+    width: 121px;
+    margin: 80px auto 100px auto;
+}
+
+
+/*CONTACTO*/
+
+.cuerpo-contacto {
+    background-image: url(img/fondo-contacto.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.cont-contacto {
+    width: 750px;
+    background-color: #fff;
+    top: 15px;
+    right: 15px;
+    position: absolute;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.contacto {
+    width: 380px;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.informacion {
+    width: 382px;
+    margin: auto;
+}
+
+.campo {
+    border-width: 0px 0px 2px 0px;
+    border-bottom: 1px solid #666;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.enviar {
+    background-color: #2db5ad;
+    width: 100%;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: 100;
+    margin-bottom: 150px;
+    border: none;
+}
+
+
+/*EVENTOS*/
+
+.cuerpo-eventos {
+    background-image: url(img/fondo-eventos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cont-eventos {
+    width: 750px;
+    background-color: #fff;
+    top: 15px;
+    right: 15px;
+    position: absolute;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.cont-eventos p {
+    margin-top: 50px;
+}
+
+
+.patrocinios {
+    display: flex;
+    width: 350px;
+    margin: auto;
+    justify-content: center;
+}
+
+.img-pat {
+    width: 75px;
+}
+
+.mar-pat {
+    margin-right: 50px;
+}
+
+.cont-buscas {
+    width: 200px;
+    margin: 100px auto 100px auto;
+}
+
+.buscas-patrocinador {
+    padding: 10px 20px;
+  
+    background-color: #2db5ad;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+  
+}
+
+
+.footer {
+    width: 350px;
+    margin: auto;
+}
+
+
+/*GRACIAS*/
+
+.gracias {
+    font-size: 20px;
+    color: #1baca5;
+    align-content: center;
+}
+
+.cont-gracias {
+    height: 100% !important;
+}
+
+
+/*POLÍTICA*/
+
+.cuerpo-politica {
+    background-image: url(img/bodegon-fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cont-politica {
+    width: 50%;
+    background-color: #fff;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.politica {
+    width: 600px;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.info-polit {
+    width: 600px;
+    margin: auto;
+}
+
+.azul {
+    color: #269d8f;
+    font-size: 22px;
+}
+
+/*RESPONSIVE*/
+
+/*INDEX*/
+
+@media screen and (max-width:1600px) {
+    .botella {
+
+        height: 500px;
+        top: 50%;
+        margin-top: -250px;
+        left: 50%;
+        margin-left: -70px;
+    }
+
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    .video {
+        display: none;
+    }
+
+    .fondo-index {
+        background-image: url(img/fondo-index.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+    }
+
+    .titulo-mov {
+        display: block;
+    }
+
+
+    .franja {
+        display: none;
+    }
+
+    .franja h2 {
+        display: none;
+
+    }
+
+    .franja h1 {
+        display: none;
+    }
+
+    .responsive {
+        height: auto;
+        width: 100%;
+    }
+
+    .botella {
+
+        height: 500px;
+        top: 50%;
+        margin-top: -340px;
+        left: 50%;
+        margin-left: -70px;
+    }
+
+    .redes-index {
+        position: fixed;
+        left: 50%;
+        margin-left: -40px;
+        bottom: 3%;
+        z-index: 900;
+    }
+
+
+}
+
+
+@media screen and (max-width:500px) {
+    .botella {
+
+        height: 300px;
+        top: 50%;
+        margin-top: -180px;
+        left: 50%;
+        margin-left: -42px;
+
+    }
+
+    .footer {
+        width: 300px;
+        margin: auto;
+    }
+
+}
+
+
+/*RESPONSIVE*/
+
+/*AGUA MINERAL*/
+
+@media screen and (max-width:500px) {
+
+    .cuerpo {
+        background-image: none;
+        background-color: #fff;
+
+
+    }
+
+    .contenedor1 {
+        position: absolute;
+        width: 100%;
+        background-color: #fff;
+        height: 100%;
+        right: 0px;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cont-int {
+        width: 306px;
+
+    }
+
+    .cont-proc-nat {
+        width: 306px;
+        margin: auto;
+    }
+
+
+
+    .flecha-agua {
+        width: 34px;
+        margin: 30px auto 0px auto;
+    }
+
+
+    .botella-am {
+        display: none;
+
+    }
+
+    .contenedor2 {
+        position: absolute;
+        width: 100%;
+        background-color: #fff;
+        padding: 150px 0px 50px 0px;
+        right: 0px;
+        top: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+
+    }
+
+
+
+    .texto {
+        width: 90%;
+        margin: 50px auto 40px auto;
+        text-align: left;
+        padding: 0px 5%;
+        box-sizing: border-box;
+    }
+
+    .montesleon {
+        width: 305px;
+
+        text-align: center;
+        margin: auto;
+    }
+
+
+
+    .cont-mineral {
+        width: 300px;
+        margin: 0px auto 30px auto;
+        box-sizing: border-box;
+    }
+
+    .link {
+
+        margin: 20px auto 100px auto;
+
+    }
+
+    .tamanos {
+        display: none;
+    }
+
+    .tamanos-mov {
+        width: 100%;
+        padding-bottom: 50px;
+        margin: auto;
+        display: block;
+    }
+
+
+
+    .formato {
+        float: left;
+        width: 120px;
+        cursor: pointer;
+    }
+
+    .formato img {
+        vertical-align: bottom;
+    }
+
+
+    .clear {
+        clear: both;
+    }
+
+    .cont-proc-nat img {}
+
+
+
+
+
+
+    .linea {
+        margin: auto;
+        text-align: center;
+    }
+
+    .redes {
+        width: 50px;
+        margin: 20px auto 50px auto;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .pequena {
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100%;
+        z-index: 900;
+
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        display: none;
+    }
+
+    .pequenaimg {
+        width: 100%;
+    }
+
+    .mediana {
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100%;
+        z-index: 900;
+
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        display: none;
+    }
+
+    .medianaimg {
+        width: 100%;
+    }
+
+    .grande {
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100%;
+        z-index: 900;
+
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        display: none;
+    }
+
+    .grandeimg {
+        width: 100%;
+    }
+
+}
+
+/*RESPONSIVE*/
+
+/*ORIGEN*/
+
+@media screen and (max-width:768px) {
+
+    .cuerpo-origen {
+        background-image: url(img/fondo-o-tablet.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .cont-bot-origen {
+        display: none;
+    }
+
+    .cont-protegida {
+
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .protegida {
+        background-color: #fff;
+        width: 400px;
+        padding: 70px 50px;
+
+    }
+
+
+
+    .proceso {
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        right: 0px;
+        padding-top: 75px;
+        background-color: #fff;
+        padding-bottom: 30px;
+    }
+
+    .fila-proc {
+        width: 450px;
+        margin: auto;
+    }
+
+    .fila-proc img {
+        float: left;
+
+    }
+
+    .fila-proc p {
+        float: right;
+        width: 300px;
+    }
+
+    .flecha {
+        margin: auto;
+        width: 34px;
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+
+    .cuerpo-origen {
+        background-image: none;
+        background-color: #fff;
+    }
+
+    .cont-bot-origen {
+        display: none;
+    }
+
+    .cont-protegida {
+
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .protegida {
+        background-color: #fff;
+        width: 90%;
+        padding: 70px 5%;
+        margin-top: 30px;
+    }
+
+    .protegida-img {
+        width: 300px;
+        height: auto;
+    }
+
+    .proceso {
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        right: 0px;
+        padding-top: 75px;
+        background-color: #fff;
+        padding-bottom: 30px;
+
+    }
+
+    .fila-proc {
+        width: 90%;
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .fila-proc img {
+        float: left;
+
+    }
+
+    .fila-proc p {
+        float: right;
+        width: 60%;
+    }
+
+    .flecha {
+        margin: auto;
+        width: 34px;
+    }
+
+
+}
+
+/*RESPONSIVE*/
+
+/*SALUD*/
+
+@media screen and (max-width:500px) {
+
+    .cuerpo-salud {
+        background-image: none;
+        background-color: #fff;
+    }
+
+    .cont-salud {
+
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #fff;
+        position: static;
+
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .salud {
+
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 5%;
+        box-sizing: border-box;
+    }
+
+    .embotellamos {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .texto-salud {
+        margin: 50px auto 20px auto;
+        width: 100%;
+        padding-left: 5%;
+
+    }
+
+    .cont-mineralizacion {
+        position: static;
+        margin-top: 80px;
+
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #fff;
+        padding-bottom: 50px;
+        margin-bottom: 15px;
+    }
+
+    .mineralizacion {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: auto;
+    }
+
+
+
+    .fila-mineral {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 70px auto 0px auto;
+
+    }
+
+    .img-mineral {
+        float: none;
+        width: 155px;
+        margin: 10px auto 0px auto;
+    }
+
+    .fila-mineral p {
+        float: none;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .corazon {
+        width: 121px;
+        margin: 80px auto 100px auto;
+    }
+
+}
+
+/*RESPONSIVE*/
+
+/*CONTACTO*/
+
+@media screen and (max-width:500px) {
+
+    .cuerpo-contacto {
+        background-image: none;
+        background-color: #fff;
+
+    }
+
+
+    .cont-contacto {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #fff;
+        top: 0px;
+        right: 0px;
+        position: absolute;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+
+    }
+
+    .contacto {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 100px;
+        margin: auto;
+    }
+
+    .informacion {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: auto;
+    }
+
+    .campo {
+        border-width: 0px 0px 2px 0px;
+        border-bottom: 1px solid #666;
+        width: 100%;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .enviar {
+        background-color: #2db5ad;
+        width: 100%;
+        color: #fff;
+        margin-top: 50px;
+        font-size: 30px;
+        padding: 5px;
+        font-weight: 100;
+        margin-bottom: 150px;
+    }
+
+}
+
+/*RESPONSIVE*/
+
+/*EVENTOS*/
+
+@media screen and (max-width:500px) {
+
+    .cuerpo-eventos {
+        background-image: none;
+        background-color: #fff;
+
+    }
+
+    .cont-eventos {
+        width: 85%;
+        padding-left: 10%;
+        padding-right: 5%;
+        background-color: #fff;
+        top: 15px;
+        right: 15px;
+        position: absolute;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+
+    }
+
+    .cont-eventos p {
+        margin-top: 50px;
+    }
+
+
+
+}
+
+
+/*RESPONSIVE*/
+
+/*POLÍTICA*/
+
+@media screen and (max-width:760px) {
+
+    .cont-politica {
+        width: 85%;
+        padding-left: 10%;
+        padding-right: 5%;
+        background-color: #fff;
+        top: 15px;
+        right: 15px;
+        position: absolute;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .politica {
+        width: 600px;
+        padding-top: 100px;
+        margin: auto;
+    }
+
+    .info-polit {
+        width: 600px;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    
+    .politica {
+       width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 100px;
+        margin: auto;
+    }
+
+    .info-polit {
+          width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: auto;
+    }
+    
+}
+
+/*CLASES GENÉRICAS*/
